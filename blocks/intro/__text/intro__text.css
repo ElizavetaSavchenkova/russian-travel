@@ -1,0 +1,23 @@
+.intro__text{
+  color:#ffffff;
+  max-width:720px;
+}
+
+@media screen and (min-width:1024px){
+  .intr__text{
+    max-width:690px;
+  }
+}
+
+@media screen and (max-width:1023px) and (min-width:768px){
+  .intro__text{
+    max-width:720px;
+  }
+}
+
+@media screen and (max-width:425px){
+  .intro__text{
+    max-width:288px;
+    align-self: center;
+  }
+}
