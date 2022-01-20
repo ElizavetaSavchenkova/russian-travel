@@ -4,7 +4,7 @@
   justify-content:space-between;
   max-width:1184px;
   align-self:center;
-  background-color:#2A2C2F;an;
+  background-color:#2A2C2F;
   margin:0 auto;
   padding-top:28px;
   padding-right:48px;
@@ -12,21 +12,25 @@
   padding-left:48px;
 }
 
-@media screen and (max-width:1279px){
+
+@media screen and (min-width:1024px){
   .header{
     padding-bottom:48px;
   }
 }
-@media screen and (max-width:1023px){
-  .header{
-    padding-right:24px;
-    padding-left: 24px;
-  }
 
+@media screen and (min-width:768px){
+  .header{
+    padding-left:24px;
+    padding-right:24px;
+  }
 }
+
 @media screen and (max-width:767px){
   .header{
     padding:16px 16px 48px 16px;
   }
-
 }
+
+
+
