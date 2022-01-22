@@ -1,5 +1,21 @@
 .cover{
-  max-width:92.5%;
-  background-color: cornflowerblue;
-  margin: 0 auto;
+
+  margin: 92px  auto 0 auto;
+  position: relative;
+  z-index: 1;
+  max-width: 1184px;
+  min-height: 740px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
 }
+
+.cover:hover .cover__overlay {
+  opacity: 0.8
+
+
+
+
+
