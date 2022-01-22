@@ -1,6 +1,7 @@
 .place__title{
   color:#ffffff;
   margin:0;
+  font-weight:400;
 
 
 }
@@ -23,9 +24,10 @@
   .place__title{
     font-size:32px;
     line-height:35px;
-    padding-left:16px;
-    padding-right:16px;
     margin:0;
+    padding:0 16px 0 16px;
+
+
 
   }
 }

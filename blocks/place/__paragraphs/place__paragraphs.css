@@ -2,3 +2,9 @@
 margin:0;
 
 }
+
+@media screen and (max-width:767px){
+  .place__paragraphs{
+    padding:0 16px 0 16px;
+  }
+}
