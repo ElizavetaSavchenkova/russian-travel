@@ -1,3 +1,9 @@
-.link{
+.place__link{
   color:#ffffff;
+  padding-top:12px;
+  text-decoration: underline;
+  font-size:18px;
+  line-height:22px;
+  font-weight:400;
+
 }

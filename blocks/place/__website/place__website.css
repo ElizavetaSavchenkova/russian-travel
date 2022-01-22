@@ -1,3 +1,11 @@
 .place__website{
   color:#ffffff;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+  justify-content: end;
+
+
+
 }
+

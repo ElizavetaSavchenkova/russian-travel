@@ -1,3 +1,11 @@
 .place__paragraph{
   color:#ffffff;
+  margin:0;
+  font-size:18px;
+  line-height:29.34px;
+  font-weight:400;
+}
+
+.place__paragraph:first-of-type{
+  padding-bottom:26px;
 }
