@@ -1,5 +1,4 @@
 .cover{
-
   margin: 92px  auto 0 auto;
   position: relative;
   z-index: 1;
@@ -14,6 +13,15 @@
 
 .cover:hover .cover__overlay {
   opacity: 0.8
+}
+
+/*пропорциональная высота через calc (100% ширины окна просмотра на соотношение высоты и ширины картинки)*/
+@media screen and (max-width:1279px){
+  .cover{
+      min-height: calc(100vw*740/1184);
+    }
+  }
+
 
 
 

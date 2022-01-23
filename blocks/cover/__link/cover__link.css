@@ -5,4 +5,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align:center;
+
+
+}
+
+@media and screen (max-width:767px){
+  .cover__link{
+    max-width:288px;
+  }
+
 }
