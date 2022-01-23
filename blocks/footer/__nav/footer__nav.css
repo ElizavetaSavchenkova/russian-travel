@@ -1,12 +1,1 @@
-.footer__nav{
-list-style-type: none;
-margin: 0;
-padding: 0;
-display: grid;
-grid-template-columns: repeat(5, min-content);
-grid-column-gap: 18px;
-justify-items: start;
-align-items: end;
-font-size: 18px;
-line-height: 16px;
-}
+
