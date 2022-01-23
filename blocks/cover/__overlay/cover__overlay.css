@@ -9,5 +9,5 @@ left: 0;
 top: 0;
 background-size: cover;
 background-repeat: no-repeat;
-transition: opacity 0.6s;
+transition: opacity 0.9s ease-in-out;
 }

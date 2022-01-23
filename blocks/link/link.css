@@ -1,0 +1,12 @@
+.link{
+    transition:opacity 1s ease-in;
+    text-decoration: none;
+  }
+
+.link:hover{
+  opacity:0.3;
+}
+
+.link_active{
+  text-decoration: underline;
+}
