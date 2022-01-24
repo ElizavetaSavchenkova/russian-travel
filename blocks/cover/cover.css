@@ -1,18 +1,18 @@
 .cover{
-  margin: 92px  auto 0 auto;
-  position: relative;
-  z-index: 1;
+  margin:0 auto;
   max-width: 1184px;
   min-height: 740px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
+  z-index: 1;
   box-sizing: border-box;
 }
 
 .cover:hover .cover__overlay {
-  opacity: 0.8
+  opacity: 0.8;
 }
 
 /*пропорциональная высота через calc (100% ширины окна просмотра на соотношение высоты и ширины картинки)*/
@@ -21,9 +21,4 @@
       min-height: calc(100vw*740/1184);
     }
   }
-
-
-
-
-
 

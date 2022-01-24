@@ -3,10 +3,12 @@
   max-width:720px;
   margin:0;
   padding-top:40px;
+  font-size:16px;
+  line-height:26px;
 }
 
 @media screen and (min-width:1024px){
-  .intr__text{
+  .intro__text{
     max-width:690px;
   }
 }
@@ -17,7 +19,7 @@
   }
 }
 
-@media screen and (max-width:425px){
+@media screen and (max-width:370px){
   .intro__text{
     max-width:288px;
     align-self: center;

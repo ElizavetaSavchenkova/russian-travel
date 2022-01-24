@@ -2,6 +2,8 @@
   margin:0 auto;
   max-width:1184px;
   padding-bottom:92px;
+  box-sizing:border-box;
+
 }
 
 @media screen and (min-width:1024px) and (max-width:1279px){
