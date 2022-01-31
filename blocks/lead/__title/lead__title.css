@@ -8,6 +8,7 @@
   text-align: center;
   align-self: center;
   padding-bottom:32px;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width:767px){

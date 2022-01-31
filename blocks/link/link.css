@@ -6,7 +6,3 @@
 .link:hover{
   opacity:0.3;
 }
-
-.link_active{
-  text-decoration: underline;
-}

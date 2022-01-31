@@ -1,16 +1,13 @@
 .place__title{
   color:#ffffff;
   margin:0;
-  font-weight:400;
-
-
+  font-weight:900;
 }
 
 @media screen and (min-width:1024px){
   .place__title{
     font-size:72px;
     line-height:76px;
-    font-weight:900;
   }
 }
 
